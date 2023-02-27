@@ -1,14 +1,14 @@
 import java.util.*;
 
 public class Main {
-    static List<Person> generateClients() {
+    private static List<Person> generateClients() {
         List<Person> personList = new ArrayList<>();
         personList.add(new Person("Иван ", "Васильев", 1));
         personList.add(new Person("Владимир ", "Казаков", 3));
         personList.add(new Person("Анастасия ", "Михайлова", 2));
         personList.add(new Person("Ирина ", "Петрова", 1));
         personList.add(new Person("Григорий ", "Серов", 3));
-        return (personList);
+        return personList;
     }
 
     public static void main(String[] args) {
